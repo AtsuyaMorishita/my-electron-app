@@ -12,6 +12,9 @@ const createWindow = () => {
     },
   });
 
+  // const contents = win.webContents;
+  // console.log(contents);
+
   win.loadFile("index.html");
 };
 
